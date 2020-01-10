@@ -1,0 +1,12 @@
+{
+  "name": "postgres-migration",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "scripts": {
+    "migration:create": "db-migrate create"
+  },
+  "dependencies": {
+    "db-migrate": "^0.11.6"
+  }
+}
