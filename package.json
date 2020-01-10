@@ -4,9 +4,11 @@
   "main": "",
   "license": "MIT",
   "scripts": {
-    "migration:create": "db-migrate create"
+    "migration:create": "db-migrate create",
+    "migrate:up": "db-migrate up"
   },
   "dependencies": {
-    "db-migrate": "^0.11.6"
+    "db-migrate": "^0.11.6",
+    "db-migrate-pg": "^1.0.0"
   }
 }
