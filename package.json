@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "knex:init": "knex init",
-    "knex:make": "knex migrate:make add_foo",
+    "knex:make": "knex migrate:make",
     "knex:up": "knex migrate:up"
   },
   "dependencies": {
