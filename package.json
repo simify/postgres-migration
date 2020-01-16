@@ -6,7 +6,9 @@
   "scripts": {
     "knex:init": "knex init",
     "knex:make": "knex migrate:make",
-    "knex:up": "knex migrate:up"
+    "knex:up": "knex migrate:up",
+    "knex:down": "knex migrate:down",
+    "knex:latest": "knex migrate:latest"
   },
   "dependencies": {
     "knex": "^0.20.7",
